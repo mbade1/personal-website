@@ -11,9 +11,12 @@ let headerAfterEnter = document.querySelector('.header-after-enter')
 let sectionHeader = document.getElementsByClassName('section-header')
 let headerInformation = document.querySelector('.header-information')
 let stacks = document.querySelector('.stacks')
+let sectionHeaderContact = document.querySelector('.section-header-contact')
 let footer = document.querySelector('.footer')
 
 enter.addEventListener('click', function(e) {
+  bg.setAttribute("data-aos", "fade");
+
     let styles = {
         "height": `70%`,
         "background": `linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .2)), url("pictures/alaska.jpeg")`,
@@ -30,6 +33,7 @@ enter.addEventListener('click', function(e) {
     projects.style.display = 'inline-block';
     stacks.style.display = 'inline-block';
     contact.style.display = 'inline-block';
+    sectionHeaderContact.style.display = 'inline-block';
     footer.style.display = 'inline-block';
     displaySectionHeader()
 })
