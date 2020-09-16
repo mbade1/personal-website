@@ -11,6 +11,7 @@ let headerAfterEnter = document.querySelector('.header-after-enter')
 let sectionHeader = document.getElementsByClassName('section-header')
 let headerInformation = document.querySelector('.header-information')
 let stacks = document.querySelector('.stacks')
+let footer = document.querySelector('.footer')
 
 enter.addEventListener('click', function(e) {
     let styles = {
@@ -29,6 +30,7 @@ enter.addEventListener('click', function(e) {
     projects.style.display = 'inline-block';
     stacks.style.display = 'inline-block';
     contact.style.display = 'inline-block';
+    footer.style.display = 'inline-block';
     displaySectionHeader()
 })
 
