@@ -27,3 +27,30 @@ $("#contact-link").click(function() {
       scrollTop: $("#contact").offset().top
   }, 2000);
 });
+
+
+// $('form').on('submit', e => {
+//   e.preventDefault();
+
+//   const name = $('#name').val().trim();
+//   const email = $('#email').val().trim();
+//   const phone = $('#phone').val().trim();
+//   const subject = $('#name').val().trim();
+//   const message = $('#message').val().trim();
+
+//   const data = {
+//     name,
+//     email,
+//     phone, 
+//     subject, message
+//   };
+
+//   $.post('/email', data, function() {
+//     console.log('Server received our data.');
+//   });
+//   $('#name').val('');
+//   $('#email').val('');
+//   $('#phone').val('');
+//   $('#subject').val('');
+//   $('#message').val('');
+// })
