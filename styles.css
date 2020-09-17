@@ -212,36 +212,43 @@ a:visited {
 
 .projects {
     display: inline-block;
-    height: auto;
+    /* height: auto; */
     width: 100%;
     margin: 0;
     padding-top: 10px;
     margin-bottom: 5px;
 }
 
+.projects a {
+    color: #000;
+  }
+
+.projects a:hover {
+    color: rgb(39, 101, 235);
+  }
+
 .project-container {
     background-color: rgba(255,255,255,.5);
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 25px;
     display: inline-block;
     width: 27%;
     height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 25px;
     border-radius: 5px;
     text-align: center;
 }
 
 .project-container img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
 }
-
-.project-container img:hover { 
-    opacity: 0.7;
+.project-container h3 {
+    text-align: center;
 }
 
 .project-container .github-and-youtube img {
@@ -251,11 +258,21 @@ a:visited {
     margin-top: 10px;
 }
 
+.project-container .github:hover {
+    opacity: 0.5;
+}
+
+.project-container .youtube:hover {
+    opacity: 0.5;
+}
+
 .project-content {
     padding: 10px;
     height: 20%;
     top: 80%;
+    text-align: left;
 }
+
 
 .stacks {
     display: inline-block;
