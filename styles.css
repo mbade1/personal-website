@@ -199,6 +199,8 @@ a:visited {
     margin-right: 25px;
 }
 
+
+
 .about h1 {
    width: 50%;
 }
@@ -226,12 +228,12 @@ a:visited {
     width: 27%;
     height: auto;
     border-radius: 5px;
+    text-align: center;
 }
 
 .project-container img {
     max-width: 80%;
     height: auto;
-    display: block;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -240,6 +242,13 @@ a:visited {
 
 .project-container img:hover { 
     opacity: 0.7;
+}
+
+.project-container .github-and-youtube img {
+    max-height: 35px;
+    max-width: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .project-content {
