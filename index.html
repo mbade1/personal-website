@@ -8,24 +8,24 @@
 </head>
 <body>
     <div class="bg">
-
-
-        <div class="navbar">
-            <a href="index.html"><span>Home</span></a>
-            <a href="#about"><span>About</span></a>
-            <a href="#projects"><span>Projects</span></a>
-            <a href="#contact"><span>Contact</span></a>
-            <a href="fake resume.pdf" target="_blank"><span>Resume</span></a>
+        <div class="navigation">
+            <div class="navbar">
+                <a href="index.html"><span>Home</span></a>
+                <a href="#about"><span id="about-link">About</span></a>
+                <a href="#projects"><span id="projects-link">Projects</span></a>
+                <a href="#stacks"><span id="stacks-link">Stacks</span></a>
+                <a href="#blog"><span id="blog-link">Blog</span></a>
+                <a href="#contact"><span id="contact-link">Contact</span></a>
+                <a href="fake resume.pdf" target="_blank"><span>Resume</span></a>
+            </div>
         </div>
-
         <div class="header-information" >
             <div class="header-information-content" >
-                <h1> Michael Bade<span class="blinking-cursor">|</span></h1>
-                <p>Full stack web developer Austin, TX</p>
+                <h1> <u>Michael Bade</u><span class="blinking-cursor">|</span></h1>
+                <p>Full stack software engineer | Austin, TX</p>
             </div>
         </div>
     </div>
-
     <a href="about" id="about"></a>
     <div class="section-header">
         <h1>About</h1>
@@ -56,8 +56,6 @@
     </div>
 
     <div class="projects">
-
-
         <div class="project-container" data-aos="zoom-in-up">
             <img src="pictures/projects/coming-soon.jpg" >
             <div class="project-content">
@@ -130,12 +128,13 @@
         </div>
     </div>
 
+    <a href="stacks" id="stacks"></a>
     <div class="section-header">
-        <h1>Languages and Frameworks</h1>
+        <h1>Stacks</h1>
     </div>
 
     <div class="stacks" >
-        <div class="top-row" data-aos="zoom-in-right">
+        <div class="top-row" data-aos="zoom-in-right" data-aos-offset="100">
             <div class="stack-container">
                 <img src='pictures/stack-logos/html.png'>
             </div>
@@ -152,7 +151,7 @@
                 <img src='pictures/stack-logos/react.png'>
             </div>
         </div>
-        <div class="bottom-row" data-aos="zoom-in-left">
+        <div class="bottom-row" data-aos="zoom-in-left" data-aos-offset="100">
 
             <div class="stack-container">
                 <img src='pictures/stack-logos/redux.png'>
@@ -172,10 +171,36 @@
         </div>
     </div>
 
+    <a href="blog" id="blog"></a>
+    <div class="section-header">
+        <h1>Blog</h1>
+    </div>
+
+    <div class="blog">
+        <div class="blog-container">
+            <h3><a href="https://mbade1.github.io/a_superb_website_for_a_superb_family" target="_blank">A SUPERB website for a SUPERB family!</a></h3>
+            <p><i>Posted by Michael Bade on September 1, 2020</i></p>
+        </div>
+        <div class="blog-container">
+            <h3><a href="https://mbade1.github.io/vegan_camping_cookbook_collective" target="_blank">Vegan Camping Cookbook Collective</a></h3>
+            <p><i>Posted by Michael Bade on September 1, 2020</i></p>
+        </div>
+        <div class="blog-container">
+            <h3><a href="https://mbade1.github.io/rails_project_a_doggo_playdate_app" target="_blank">RAILS Project: A Doggo Playdate App!</a></h3>
+            <p><i>Posted by Michael Bade on August 3, 2020</i></p>
+        </div>
+        <div class="blog-container">
+            <h3><a href="https://mbade1.github.io/sinatra_project_mileage_tracker" target="_blank">SINATRA Project: Mileage Tracker</a></h3>
+            <p><i>Posted by Michael Bade on July 6, 2020</i></p>
+        </div>
+        <h4>
+            <i id="more-blogs">To view more blog posts, <a href="https://mbade1.github.io/" target="_blank">click here</a></i>
+        </h4>
+    </div>
+
     <a href="about" id="contact"></a>
     <div class="section-header-contact">
         <h1>Contact</h1>
-
         <div class="contact">
             <a href="https://mbade1.github.io/" target="_blank"><img src="pictures/contact/blog.png"></a>
             <a href="mailto:mbadedeveloper@gmail.com" target="_blank"><img src="pictures/contact/email.webp"></a>
@@ -190,11 +215,12 @@
         Copyright info here
     </div>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({
-    offset: 250,
+    offset: 100,
     duration: 1500,
     once: true
   });

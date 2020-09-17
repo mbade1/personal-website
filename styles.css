@@ -6,12 +6,15 @@ body, html {
 }
 
 a {
-    color: #dddbdb;
     text-decoration: none;
 }
 
-a:hover {
+ a:hover {
     color: #585757;
+} 
+
+a:visited {
+    color: #000;
 }
 
 .bg {
@@ -38,7 +41,7 @@ a:hover {
 }
 
 .section-header h1 {
-    margin: 10px;
+    margin-top: 10px;
     margin-left: 5%;
     color: #e4e1e1;
     font-weight: 400;
@@ -47,7 +50,7 @@ a:hover {
 /* Blinking Cursor*/
 .blinking-cursor {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     color: #e4e1e1;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -103,11 +106,7 @@ a:hover {
 
 
 
-
-
-
-
-.navbar {
+.navigation {
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -121,8 +120,16 @@ a:hover {
     color: #dddbdb;
 }
 
+#name-navbar {
+    float: left;
+    margin-left: 5%;
+} 
+.navbar {
+    margin: auto;    
+    /* margin-right: 3%; */
+}
 .navbar span {
-    font-weight: 200;
+        font-weight: 200;
     transform: translate(-50%, -50%);
     padding-top: 5px;
     padding-left: 10px;
@@ -135,6 +142,8 @@ a:hover {
     background-color: rgba(21, 100, 202, 0.2);
     color: rgb(13, 70, 192);
 }
+
+
 
 .header-information {
     display: inline-block;
@@ -291,9 +300,32 @@ a:hover {
   
   
   .section-header-contact h1 {
-      margin: 10px;
+      margin-top: 10px;
       color: #e4e1e1;
       font-weight: 400;
+  }
+
+  .blog {
+      width: 100%;
+      height: auto;
+      text-align: center;
+  }
+
+  .blog-container {
+      width: 47%;
+      text-align: center;
+      border: 2px solid black;
+      display: inline-block;
+      margin: 5px 0px 5px 2%;
+  }
+
+.blog a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+.blog a:hover {
+    color: rgb(39, 101, 235);
   }
 
 
@@ -323,4 +355,6 @@ a:hover {
     text-align: center;
     font-size: .8em;
     font-weight: 800;
+    color: #585757;
+
 }
