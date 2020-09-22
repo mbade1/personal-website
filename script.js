@@ -1,3 +1,9 @@
+$("#about-link").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#about").offset().top
+  }, 1000);
+});
+
 $("#projects-link").click(function() {
   $('html, body').animate({
       scrollTop: $("#projects").offset().top
@@ -16,9 +22,9 @@ $("#blog-link").click(function() {
   }, 2000);
 });
 
-$("#contact-link").click(function() {
+$("#connect-link").click(function() {
   $('html, body').animate({
-      scrollTop: $("#contact").offset().top
+      scrollTop: $("#connect").offset().top
   }, 2000);
 });
 

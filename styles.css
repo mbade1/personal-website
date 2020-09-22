@@ -5,6 +5,7 @@ body, html {
     background-color: #e9f1f8;
 }
 
+
 a {
     color: black;
     text-decoration: none;
@@ -221,7 +222,7 @@ font-size: 1.3em;
     margin-right: auto;
     display: block;
     width: 200px;
-    height: 210px;
+    height: auto;
     border-radius: 50%;
     float: left;
     margin: 5px;
@@ -418,3 +419,70 @@ border-radius: 40px;
     color: #585757;
 }
 
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .bg {
+        height: 35%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bg p{
+        display: none;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    /* .section-header {
+        width: 95%;
+    } */
+
+    .section-header h1 {
+        margin-left: 2%;
+    }
+
+    .about img {
+        width: 150px;
+    }
+
+    .about p {
+        margin-left: 5px;
+    }
+
+    .project-container {
+        width: 95%;
+        margin-left: 2%;
+    }
+
+    .stack-container {
+        width: 45%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .top-row, .bottom-row {
+        width: 95%;
+    }
+
+    .blog-container {
+        width: 95%;
+    }
+
+    .blog-container img {
+        width: 35%;
+    }
+
+    .blog-container p {
+        margin-left: 0px;
+        padding-right: 10px;
+    }
+}
