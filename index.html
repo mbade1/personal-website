@@ -4,10 +4,25 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/png" href="pictures/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <div class="bg">
-        <div class="enter-bar">
+        <div class="navigation">
+            <div class="navbar">
+                <a href="index.html"><span>Home</span></a>
+                <a href="#about"><span id="about-link">About</span></a>
+                <a href="#projects"><span id="projects-link">Projects</span></a>
+                <a href="#stacks"><span id="stacks-link">Stacks</span></a>
+                <a href="#blog"><span id="blog-link">Blog</span></a>
+                <a href="#contact"><span id="contact-link">Connect</span></a>
+                <a href="fake resume.pdf" target="_blank"><span>Resume</span></a>
+            </div>
+        </div>
+
+        <!-- <div class="enter-bar">
             <p><i>"The mountains are calling and I must go." - John Muir</i></p>
             <h1>Michael Bade<br>Full Stack Developer</h1>
             <h2 id="enter">Enter</a></h2>
@@ -17,73 +32,314 @@
             <h4><i>“You only ever grow as a human being if you’re outside your comfort zone.”</i>
                 <br><br> 
                 <b>- Scott Jurek</b></h4>
-        </div>
-    </div>
+        </div> -->
 
-    <div class="navbar">
+
+
+        <div class="header-information" >
+            <div class="header-information-content" >
+                <h1> <u>Michael Bade</u></h1>
+                <p>Full stack software engineer | Austin, TX</p>
+            </div>
+        </div>
+
+    <!-- <div class="navbar">
         <span><a href="index.html">Home</a></span> 
         <span><a href="#about">About</a></span> 
         <span><a href="#projects">Projects</a></span> 
         <span><a href="#contact">Contact</a></span>
         <span><a href="resume.pdf">Resume</a></span> 
 
-    </div>
+    </div> -->
 
-    <div class="about">
-        <a href="about" id="about"></a>
+</div>
+
+<a href="about" id="about"></a>
+<div class="section-header">
+    <h1>About</h1>
+</div>
+
+<div class="about">
+    <div class="image-container">
         <img src="pictures/about-me.jpeg">
-        <h2>About Michael Bade</h2>
-        <p>Info about me here...</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce justo nulla, faucibus ut imperdiet at, tempus quis enim. 
-        Nunc tincidunt ut arcu sit amet ullamcorper. Curabitur vehicula nunc mauris, sed fringilla augue viverra a. 
-        Donec lectus ipsum, fringilla ut mauris ac, maximus pellentesque purus. 
-        Nullam massa sem, sodales et interdum quis, sagittis et libero. Nulla lorem lectus, gravida lacinia nunc ac, tempor lacinia arcu. 
-        Sed efficitur orci eu velit viverra eleifend. Maecenas ac varius turpis.</p>
-
-        <p>Praesent mattis vehicula lacus vel gravida. Nulla lorem arcu, porttitor non tortor eget, sollicitudin faucibus nunc. 
-            Aenean at bibendum magna, eu sollicitudin mi. Donec in tortor egestas, ornare justo vitae, blandit nisl. 
-            Curabitur dignissim tempus sem, eu placerat lorem scelerisque id. 
-            Mauris ex turpis, malesuada at feugiat vitae, dapibus id orci. Quisque laoreet eros id magna volutpat pulvinar. 
-            Donec luctus lobortis tristique.</p>
     </div>
 
+    <p>Full Stack Web Developer, with a passion for creativity and making abstract ideas come to life. 
+        Before venturing into Software Engineering, I sang opera professionally, took care of armadillos and mice, 
+        taught Middle School choir for 4 years, and led several community/church choirs. 
+        All of these professional experiences brought new challenges, allowed the opportunity to learn new skill sets, 
+        and made me realize the best way to communicate and get people involved as a community is through human connection.
+    </p>
+    <p>
+        I love creativity, helping others find their inspiration, seeing things come to life, opera, hiking, running, 
+        reading, music, and the arts. Musical creativity and integrity makes notes on a page come alive. 
+        In a similar way, lines of code bring life to our web browsers and connect all of us together digitally! 
+        Let's connect and talk code some time! Feel free to message me on LinkedIn or email: mbadedeveloper@gmail.com </p>
+    </p>
+</div>
+
+<a href="about" id="projects"></a>
+<div class="section-header">
+    <h1>Projects</h1>
+</div>
     <div class="projects">
-        <a href="about" id="projects"></a>
-
-        <div id="mileage-tracker">
-            <!-- Screenshot of mileage app covers background of this area -->
-            <h1>Mileage Tracker App</h1>
-
-            <img src="pictures/projects/mileage_tracker.png">
-            <div id="mileage-content">
-                <p>Mileage Tracker Description goes here</p>
+        <div class="project-container" data-aos="zoom-in-up">
+            <h3>Final React Project</h3>
+            <img src="pictures/projects/coming-soon.jpg" >
+            <div class="github-and-youtube">
+                <a href="https://mbade1.github.io/" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>  
+            <div class="project-content">
+                Info about the React Project Coming Soon! This is a super cool React project with an incredible Rails backend. Making fetch calls, eating biscuits, oh yeah!
             </div>
         </div>
 
-        <div id="doggo-playdate">
-            Doggo Playdate App Screenshot goes here
+        <div class="project-container" data-aos="zoom-in-up" data-aos-delay="250">
+            <h3>Vegan Camping Cookbook Collective</h3>
+            <div class="wrapper"></div>
+            <img src="pictures/projects/vccc.png">
+            <div class="github-and-youtube">
+                <a href="https://github.com/mbade1/vegan-camping-cookbook-collective" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>  
+            <div class="project-content">
+                This project allows users to choose vegan camping recipes, and create a cookbook from those recipes. 
+                    Technologies used: Ruby on Rails API, vanilla JS, HTML, and CSS.
+            </div>
         </div>
-        <div id="vccc">
-            VCCC 
+
+        <div class="project-container" data-aos="zoom-in-up" data-aos-delay="500">
+            <h3>Doggo Playdate</h3>
+            <img src="pictures/projects/doggo.jpeg">
+            <div class="github-and-youtube">
+                <a href="https://github.com/mbade1/doggo-play-date" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>  
+            <div class="project-content">
+                This app allows users to create playdates at various dog parks throughout Austin, TX. This project utilizes Ruby on Rails, HTML, and CSS.
+            </div>
         </div>
-        <div id="react">
-            Final React Project
+
+        <div class="project-container" data-aos="zoom-in-up">
+            <h3><a href="http://superbroofingllc.com/" target="_blank">Superb Roofing LLC</a></h3>
+            <img src="pictures/projects/superbroofing.png">
+            <div class="github-and-youtube">
+                <a href="https://github.com/mbade1/superb-roofing" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>              
+            <div class="project-content">
+                Designed for a good friend and with a responsive design in mind, this project utilizes CSS, HTML, and JS. Click above to see their website!
+            </div>
         </div>
-        <div id="superbroofingllc">
-            superbroofingllc
+
+        <div class="project-container" data-aos="zoom-in-up" data-aos-delay="250">
+            <h3>Mileage Tracker App</h3>
+            <img src="pictures/projects/mileage_tracker.jpeg">
+            <div class="github-and-youtube">
+                <a href="https://github.com/mbade1/mileage_tracker" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>              
+            <div class="project-content">
+                An app lets runners track the mileage wear-and-tear on their running shoes. Using CRUD actions, this app utilizes the Sinatra framework with Ruby, HTML, and CSS.
+            </div>
         </div>
-        
+
+        <div class="project-container" data-aos="zoom-in-up" data-aos-delay="500">
+            <h3>I scream, You scream CLI</h3>
+            <img src="pictures/projects/CLI.jpeg" >
+            <div class="github-and-youtube">
+                <a href="https://github.com/mbade1/blue_bell_final" target="_blank"><img src="pictures/contact/github.png" class="github"></a>
+                <a href="" target="_blank"><img src="pictures/contact/youtube.png" class="youtube"></a>
+            </div>              <div class="project-content">
+                This is a Command Line Interface (CLI) which scraps a website for its top 10 ice cream flavors. The entire project utilizes Ruby.
+            </div>
+        </div>
+    </div>
+    <a href="stacks" id="stacks"></a>
+    <div class="section-header">
+        <h1>Stacks</h1>
     </div>
 
-    <div class="contact">
-        <a href="about" id="contact"></a>
+    <div class="stacks" >
+        <div class="top-row" data-aos="zoom-in-right" data-aos-offset="100">
+            <div class="stack-container">
+                <img src='pictures/stack-logos/html.png'>
+            </div>
+            <div class="stack-container">
+                <img src='pictures/stack-logos/css.png'>
+            </div>
+            <div class="stack-container">
+                <img src='pictures/stack-logos/js.png'>
+            </div>
 
-        Contact me here!
-        <a href="resume.pdf">Link to Resume</a>
+            <div class="stack-container">
+                <img src='pictures/stack-logos/react.png'>
+            </div>
+        </div>
+        <div class="bottom-row" data-aos="zoom-in-left" data-aos-offset="100">
+
+            <div class="stack-container">
+                <img src='pictures/stack-logos/redux.png'>
+            </div>
+
+            <div class="stack-container">
+                <img src='pictures/stack-logos/rails.png'>
+            </div>
+
+            <div class="stack-container">
+                <img src='pictures/stack-logos/ruby.png'>
+            </div>
+
+            <div class="stack-container">
+                <img src='pictures/stack-logos/sinatra.png'>
+            </div>
+        </div>
     </div>
+
+    <a href="blog" id="blog"></a>
+    <div class="section-header">
+        <h1>Blog</h1>
+    </div>
+
+    <div class="blog">
+        <div class="blog-container">
+            <div class="blog-content">
+                <a href="https://mbade1.github.io/a_superb_website_for_a_superb_family" target="_blank">
+                    <img src="pictures/blog/superb.png">
+                </a>
+                <h2>
+                    <a href="https://mbade1.github.io/a_superb_website_for_a_superb_family" target="_blank">A SUPERB website for a SUPERB family!</a>
+                </h2>
+                <p>
+                    <img src="pictures/blog/calendar.png" class="calendar"> <i>September 1, 2020</i>
+                </p>
+                <p>
+                    Roughly a week and half ago, my wife and I were hanging out with some friends from our church who own a Roofing business. 
+                    They’ve been in business for roughly a year or so, and they talked to us about how they wanted a website, but couldn’t afford a professional. 
+                    Being a Flatiron student with some experience with CSS, HTML, and recently, JavaScript, I told them I could build the site for them... 
+                </p>
+            </div>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-content">
+                <a href="https://mbade1.github.io/vegan_camping_cookbook_collective" target="_blank">
+                    <img src="pictures/blog/vccc.png">
+                </a>
+                <h2>
+                    <a href="https://mbade1.github.io/vegan_camping_cookbook_collective" target="_blank">Vegan Camping Cookbook Collective</a>
+                </h2>
+                <p>
+                    <img src="pictures/blog/calendar.png" class="calendar"><i>September 1, 2020</i>
+                </p>
+                <p>
+                    Today I officially finished my fourth project for the Flatiron School’s Software Engineering Program, woohoo! 
+                    The idea for this project came from personal experience of mine. 
+                    Three weeks ago, my wife and I took a camping trip to the Guadalupe Mountains and Lincoln National Forest, which are both located near the Texas/New Mexico border. 
+                    As we were planning for our trip, we quickly realized that it’s pretty difficult to plan out food...
+                </p>
+            </div>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-content">
+                <a href="https://mbade1.github.io/rails_project_a_doggo_playdate_app" target="_blank">
+                    <img src="pictures/blog/doggo.png">
+                </a>
+                <h2>
+                    <a href="https://mbade1.github.io/rails_project_a_doggo_playdate_app" target="_blank">RAILS Project: A Doggo Playdate App!</a>
+                </h2>
+                <p>
+                    <img src="pictures/blog/calendar.png" class="calendar"><i>August 3, 2020</i>
+                </p>
+                <p>
+                    When thinking about what to base this Rails project on, I thought about how Covid-19 has affected so many areas of our lives. 
+                    For many dog owners, dog parks have officially shut down in most major cities. 
+                    With this app, users are able to add new Parks, new Playdates, and a Review for each Park. 
+                    There are several validations with each newly created object, and users can not edit/delete other users’ information...
+                </p>
+            </div>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-content">
+                <a href="https://mbade1.github.io/sinatra_project_mileage_tracker" target="_blank">
+                    <img src="pictures/blog/mileage.png">
+                </a>
+                <h2>
+                    <a href="https://mbade1.github.io/sinatra_project_mileage_tracker" target="_blank">SINATRA Project: Mileage Tracker</a>
+                </h2>
+                <p>
+                    <img src="pictures/blog/calendar.png" class="calendar"><i>July 6, 2020</i>
+                </p>
+                <p>
+                    This was such a fun project, and it was a joy to actually create a web APP! 
+                    After years of learning basic HTML and CSS, I have crafted web sites, and the idea of creating a dynamic web app terrified me! 
+                    However, Flatiron helped me out so much, and I feel much more confident in being able to create a dynamic web app, capable of CRUD actions.
+                    For this project, I decided to use one of my new-found interests: running... 
+                </p>
+            </div>
+        </div>
+        <h2>
+            <i id="more-blogs">To view more blog posts, <a href="https://mbade1.github.io/" target="_blank">click here</a></i>
+        </h2>
+    </div>
+
+    <a href="about" id="contact"></a>
+    <div class="section-header-contact">
+        <h1>Connect</h1>
+
+        <!-- <form method="post" name="myemailform" action="form-to-email.php">
+
+            Enter Name:	<input type="text" name="name"><br>
+            
+            Enter Email Address:	<input type="text" name="email"><br>
+
+            Enter Phone: <input type="text" name="phone"><br>
+
+            Enter Subject: <input type="text" name="subject"><br>
+            
+            Enter Message:	<textarea name="message"></textarea>
+            
+            <input type="submit" value="Send Form">
+            </form> -->
+
+
+
+
+
+
+
+            
+        <div class="contact">
+            <!-- <a href="https://mbade1.github.io/" target="_blank"><img src="pictures/contact/blog.png"></a> -->
+            <a href="mailto:mbadedeveloper@gmail.com" target="_blank"><img src="pictures/contact/email.webp"></a>
+            <a href="https://github.com/mbade1" target="_blank"><img src="pictures/contact/github.png"></a>
+            <a href="https://www.linkedin.com/in/michael-bade/" target="_blank"><img src="pictures/contact/linkedin.png"></a>
+            <a href="https://www.facebook.com/mike.bade" target="_blank"><img src="pictures/contact/facebook.webp"></a>
+            <a href="fake resume.pdf" target="_blank"><img src="pictures/contact/resume.png"></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright info here
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 1500,
+    once: true
+  });
+</script>
+
+
 </body>
 </html>
