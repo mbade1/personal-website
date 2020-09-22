@@ -19,7 +19,7 @@ a:visited {
 }
 
 .bg {
-    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .2)), url("pictures/alaska.jpeg");
+    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255, .2)), url("images/alaska.jpeg");
     background-color: rgb(77, 75, 75);
     height: 70%; 
     background-position: center;
