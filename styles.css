@@ -213,6 +213,10 @@ a:visited {
     opacity: 0.5;
 }
 
+.project-container .website:hover {
+    opacity: 0.5;
+}
+
 
 .stacks {
     display: inline-block;
