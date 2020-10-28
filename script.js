@@ -1,3 +1,9 @@
+$('#down-arrow').click(function() {
+  $('html, body').animate({
+    scrollTop: $("#projects").offset().top
+}, 1000);
+})
+
 $("#about-link").click(function() {
   $('html, body').animate({
       scrollTop: $("#about").offset().top
