@@ -96,6 +96,7 @@ a:visited {
   -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
   -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
   animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+  cursor: pointer;
 }
 
 .section-header {
