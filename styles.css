@@ -419,7 +419,7 @@ a:visited {
     overflow: hidden;
   }
   #down-arrow img {
-      display: none;
+    display: none;
   }
 
   .bg p {
@@ -442,7 +442,7 @@ a:visited {
     margin-left: 5px;
   }
   #project-section-header {
-      display: none;
+    display: none;
   }
 
   .projects {
