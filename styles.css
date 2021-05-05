@@ -184,43 +184,6 @@ a:visited {
   font-size: 1.3em;
 }
 
-.about {
-  display: inline-block;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.about img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-  float: left;
-  margin: 5px;
-  margin-left: 1%;
-  width: 300px;
-  height: auto;
-  /* box-shadow: #585757; */
-  margin-right: 25px;
-  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.about h1 {
-  text-align: left;
-  color: #000;
-}
-
-.about p {
-  text-align: left;
-  width: 98%;
-}
-
 .projects {
   display: inline-block;
   height: auto;
@@ -293,6 +256,22 @@ a:visited {
   margin-left: 1.5%;
 }
 
+.stacks-row {
+  justify-content: center;
+  text-align:center;
+}
+
+.stack-title {
+  background-color: rgba(255, 255, 255, 0.5);
+  width:max-content;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+
+.stack-title h3 {
+  padding: 5px;
+}
+
 .stack-container {
   background-color: rgba(255, 255, 255, 0.5);
   margin-top: 10px;
@@ -300,14 +279,14 @@ a:visited {
   margin-right: 1%;
   margin-bottom: 25px;
   display: inline-block;
-  width: 21.5%;
+  width: 12%;
   height: auto;
   border-radius: 5px;
 }
 
 .stack-container img {
   max-width: 100%;
-  max-height: 150px;
+  max-height: 100px;
   display: block;
   margin-top: 10px;
   margin-left: auto;
@@ -369,13 +348,53 @@ a:visited {
   margin-left: 10px;
 }
 
-.blog a {
+.blog-content h2 {
+  text-underline-offset: 0.1em;
+}
+
+.blog a, .about a {
   color: #000;
   text-decoration: underline;
 }
 
-.blog a:hover {
+.blog a:hover, .about a:hover {
   color: rgb(39, 101, 235);
+}
+
+.about {
+  display: inline-block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.about img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  border-radius: 15%;
+  float: left;
+  margin: 5px;
+  margin-left: 1%;
+  max-width: 400px;
+  height: auto;
+  /* box-shadow: #585757; */
+  margin-right: 25px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about h1 {
+  text-align: left;
+  color: #000;
+}
+
+.about p {
+  text-align: left;
+  width: 98%;
 }
 
 .contact {
@@ -402,7 +421,6 @@ a:visited {
   font-size: 0.8em;
   font-weight: 800;
   color: #585757;
-  background-color: #d3c49470;
 }
 
 @media only screen and (max-width: 600px) {
@@ -453,8 +471,7 @@ a:visited {
     margin-right: 1.5%;
   }
 
-  .top-row,
-  .bottom-row {
+  .row {
     width: 95%;
   }
 
