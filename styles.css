@@ -371,20 +371,25 @@ a:visited {
   text-align: center;
 }
 
-.about img {
-  margin-left: auto;
+.about-image-container img {
   margin-right: auto;
+  margin-top: 4em;
   display: block;
   height: auto;
   border-radius: 15%;
   float: left;
   margin: 5px;
-  margin-left: 1%;
-  max-width: 400px;
+  margin-left: 5%;
+  max-width: 30%;
   height: auto;
   /* box-shadow: #585757; */
   margin-right: 25px;
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+  margin-left:5%;
+  margin-right:5%;
 }
 
 .about h1 {
@@ -486,5 +491,16 @@ a:visited {
   .blog-container p {
     margin-left: 0px;
     padding-right: 10px;
+  }
+  .about-image-container {
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  .about-image-container img {
+    max-width: 91%;
+    width: 91%;
+    display: block;
+    float: none;
   }
 }
